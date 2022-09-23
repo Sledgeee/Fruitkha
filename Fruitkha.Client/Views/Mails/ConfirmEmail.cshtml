@@ -1,0 +1,11 @@
+﻿@model Fruitkha.Core.Helpers.Mails.ViewModels.UserToken
+
+@{
+    Layout = "_MailLayout";
+    ViewData["ClientUrl"] = Model.Uri;
+}
+
+<form style="text-align: center; word-break: break-all;">
+    <h1>That's your email confirmation code:</h1>
+    <label style="justify-content: space-between;">@Model.Token</label>
+</form>
