@@ -1,0 +1,12 @@
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Services\bin\Debug\net5.0\Fruitkha.Services.deps.json
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Services\bin\Debug\net5.0\Fruitkha.Services.dll
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Services\bin\Debug\net5.0\Fruitkha.Services.pdb
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Services\obj\Debug\net5.0\Fruitkha.Services.csproj.AssemblyReference.cache
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Services\obj\Debug\net5.0\Fruitkha.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Services\obj\Debug\net5.0\Fruitkha.Services.AssemblyInfoInputs.cache
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Services\obj\Debug\net5.0\Fruitkha.Services.AssemblyInfo.cs
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Services\obj\Debug\net5.0\Fruitkha.Services.csproj.CoreCompileInputs.cache
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Services\obj\Debug\net5.0\Fruitkha.Services.dll
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Services\obj\Debug\net5.0\refint\Fruitkha.Services.dll
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Services\obj\Debug\net5.0\Fruitkha.Services.pdb
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Services\obj\Debug\net5.0\ref\Fruitkha.Services.dll

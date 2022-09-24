@@ -1,16 +1,39 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Fruitkha.Client.Models;
+using Fruitkha.Services.Emailer;
+using Fruitkha.Services.Emailer.Models;
 
 namespace Fruitkha.Client.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IEmailSender _emailSender;
+        private readonly IConfiguration _configuration;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(
+            ILogger<HomeController> logger,
+            IEmailSender emailSender,
+            IConfiguration configuration)
         {
             _logger = logger;
+            _emailSender = emailSender;
+            _configuration = configuration;
+        }
+
+        [Route("/send-email")]
+        public IActionResult SendEmailAsync()
+        {
+            var settings = _configuration.GetSection("EmailSettings").Get<MailSettings>();
+            var vm = new SendEmailVM()
+            {
+                Subject = "test",
+                Message = "test",
+                To = "bazisc.qa@gmail.com"
+            };
+            var result = _emailSender.SendEmail(vm, settings);
+            return Ok(result);
         }
 
         [Route("")]

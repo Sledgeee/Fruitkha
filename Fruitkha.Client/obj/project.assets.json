@@ -2404,6 +2404,19 @@
         "runtime": {
           "bin/placeholder/Fruitkha.Infrastructure.dll": {}
         }
+      },
+      "Fruitkha.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MailKit": "3.4.1"
+        },
+        "compile": {
+          "bin/placeholder/Fruitkha.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fruitkha.Services.dll": {}
+        }
       }
     }
   },
@@ -6466,11 +6479,17 @@
       "type": "project",
       "path": "../Fruitkha.Infrastructure/Fruitkha.Infrastructure.csproj",
       "msbuildProject": "../Fruitkha.Infrastructure/Fruitkha.Infrastructure.csproj"
+    },
+    "Fruitkha.Services/1.0.0": {
+      "type": "project",
+      "path": "../Fruitkha.Services/Fruitkha.Services.csproj",
+      "msbuildProject": "../Fruitkha.Services/Fruitkha.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Fruitkha.Infrastructure >= 1.0.0",
+      "Fruitkha.Services >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.Facebook >= 6.0.9",
       "Microsoft.AspNetCore.Authentication.Google >= 6.0.9",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.9",
@@ -6515,6 +6534,9 @@
           "projectReferences": {
             "C:\\Users\\infab\\source\\repos\\Fruitkha\\Fruitkha.Infrastructure\\Fruitkha.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\infab\\source\\repos\\Fruitkha\\Fruitkha.Infrastructure\\Fruitkha.Infrastructure.csproj"
+            },
+            "C:\\Users\\infab\\source\\repos\\Fruitkha\\Fruitkha.Services\\Fruitkha.Services.csproj": {
+              "projectPath": "C:\\Users\\infab\\source\\repos\\Fruitkha\\Fruitkha.Services\\Fruitkha.Services.csproj"
             }
           }
         }

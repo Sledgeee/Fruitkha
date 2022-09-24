@@ -14,10 +14,10 @@ namespace Fruitkha.Core.Services
     public class EmailSenderService : IEmailSenderService
     {
         private readonly ITemplateService _templateService;
-        private readonly Helpers.Mails.MailSettings _mailSettings;
+        private readonly MailSettings _mailSettings;
 
         public EmailSenderService(
-            IOptions<Helpers.Mails.MailSettings> options,
+            IOptions<MailSettings> options,
             ITemplateService templateService)
         {
             _templateService = templateService;

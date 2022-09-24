@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Fruitkha.Infrastructure\Fruitkha.Infrastructure.csproj" />
+    <ProjectReference Include="..\Fruitkha.Services\Fruitkha.Services.csproj" />
   </ItemGroup>
 
 </Project>

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Fruitkha.Client.ServiceExtensions;
 using Fruitkha.Core;
 using Fruitkha.Infrastructure;
+using Fruitkha.Services.Emailer;
 
 namespace Fruitkha.Client
 {
@@ -22,6 +23,8 @@ namespace Fruitkha.Client
             services.AddDbContext(Configuration.GetConnectionString("DefaultConnection"));
             services.AddIdentityDbContext();
             services.AddAuthentication();
+
+            services.AddScoped<IEmailSender, EmailSender>();
 
             services.AddRepositories();
             services.AddCustomServices();

@@ -102,3 +102,5 @@ C:\Users\infab\source\repos\Fruitkha\Fruitkha.Client\obj\Debug\net6.0\Fruitkha.C
 C:\Users\infab\source\repos\Fruitkha\Fruitkha.Client\obj\Debug\net6.0\ref\Fruitkha.Client.dll
 C:\Users\infab\source\repos\Fruitkha\Fruitkha.Client\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\infab\source\repos\Fruitkha\Fruitkha.Client\bin\Debug\net6.0\appsettings.json
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Client\bin\Debug\net6.0\Fruitkha.Services.dll
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Client\bin\Debug\net6.0\Fruitkha.Services.pdb
