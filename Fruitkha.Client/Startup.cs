@@ -4,9 +4,6 @@ using Microsoft.AspNetCore.Identity;
 using Fruitkha.Client.ServiceExtensions;
 using Fruitkha.Core;
 using Fruitkha.Infrastructure;
-using JavaScriptEngineSwitcher.Extensions.MsDependencyInjection;
-using JavaScriptEngineSwitcher.V8;
-using React.AspNet;
 
 namespace Fruitkha.Client
 {
@@ -21,9 +18,6 @@ namespace Fruitkha.Client
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            services.AddReact();
-            services.AddJsEngineSwitcher(options => options.DefaultEngineName = V8JsEngine.EngineName).AddV8();
             services.AddControllersWithViews();
             services.AddDbContext(Configuration.GetConnectionString("DefaultConnection"));
             services.AddIdentityDbContext();
@@ -57,24 +51,10 @@ namespace Fruitkha.Client
         {
             if (!env.IsDevelopment())
             {
-                app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
 
-            app.Use(async (context, next) =>
-            {
-                await next();
-                if (context.Response.StatusCode == 404)
-                {
-                    context.Request.Path = "/error";
-                    await next();
-                }
-            });
-
-            app.UseReact(config =>
-            {
-
-            });
+            app.UseStatusCodePagesWithRedirects("/error");
 
             app.UseStaticFiles();
 

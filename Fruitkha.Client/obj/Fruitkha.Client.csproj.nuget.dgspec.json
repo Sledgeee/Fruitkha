@@ -49,18 +49,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "JavaScriptEngineSwitcher.Extensions.MsDependencyInjection": {
-              "target": "Package",
-              "version": "[3.19.0, )"
-            },
-            "JavaScriptEngineSwitcher.V8": {
-              "target": "Package",
-              "version": "[3.20.2, )"
-            },
-            "JavaScriptEngineSwitcher.V8.Native.win-x64": {
-              "target": "Package",
-              "version": "[3.20.2, )"
-            },
             "Microsoft.AspNetCore.Authentication.Facebook": {
               "target": "Package",
               "version": "[6.0.9, )"

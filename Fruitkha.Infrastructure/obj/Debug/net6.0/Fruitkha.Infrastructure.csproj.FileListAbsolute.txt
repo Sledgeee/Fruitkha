@@ -1,0 +1,17 @@
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\bin\Debug\net6.0\Fruitkha.Infrastructure.deps.json
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\bin\Debug\net6.0\Fruitkha.Infrastructure.runtimeconfig.json
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\bin\Debug\net6.0\Fruitkha.Infrastructure.dll
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\bin\Debug\net6.0\Fruitkha.Infrastructure.pdb
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\bin\Debug\net6.0\Fruitkha.Core.dll
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\bin\Debug\net6.0\Fruitkha.Core.pdb
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\obj\Debug\net6.0\Fruitkha.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\obj\Debug\net6.0\Fruitkha.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\obj\Debug\net6.0\Fruitkha.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\obj\Debug\net6.0\Fruitkha.Infrastructure.AssemblyInfo.cs
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\obj\Debug\net6.0\Fruitkha.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\obj\Debug\net6.0\Fruitkha.Infrastructure.csproj.CopyComplete
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\obj\Debug\net6.0\Fruitkha.Infrastructure.dll
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\obj\Debug\net6.0\refint\Fruitkha.Infrastructure.dll
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\obj\Debug\net6.0\Fruitkha.Infrastructure.pdb
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\obj\Debug\net6.0\Fruitkha.Infrastructure.genruntimeconfig.cache
+C:\Users\infab\source\repos\Fruitkha\Fruitkha.Infrastructure\obj\Debug\net6.0\ref\Fruitkha.Infrastructure.dll

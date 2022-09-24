@@ -12,7 +12,7 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://04a9-78-25-4-221.eu.ngrok.io;http://04a9-78-25-4-221.eu.ngrok.io",
+      "applicationUrl": "https://localhost:3001;http://localhost:3000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

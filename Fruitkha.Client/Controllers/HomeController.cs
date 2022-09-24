@@ -13,43 +13,44 @@ namespace Fruitkha.Client.Controllers
             _logger = logger;
         }
 
-        [Route("/")]
+        [Route("")]
+        [Route("home")]
         public IActionResult Index()
         {
             return View();
         }
 
-        [Route("/cart")]
+        [Route("cart")]
         public IActionResult Cart()
         {
             return View();
         }
 
-        [Route("/cart/checkout")]
+        [Route("cart/checkout")]
         public IActionResult Checkout()
         {
             return View();
         }
 
-        [Route("/about")]
+        [Route("about")]
         public IActionResult About()
         {
             return View();
         }
 
-        [Route("/news")]
+        [Route("news")]
         public IActionResult News()
         {
             return View();
         }
 
-        [Route("/shop")]
+        [Route("shop")]
         public IActionResult Shop()
         {
             return View();
         }
 
-        [Route("/contact")]
+        [Route("contact")]
         public IActionResult Contact()
         {
             return View();
